@@ -1,0 +1,6 @@
+# Ignore folder công cụ cụ thể
+claude-harness-base/
+
+# Ignore folder cấu hình của IDE
+.idea/
+.vscode/
