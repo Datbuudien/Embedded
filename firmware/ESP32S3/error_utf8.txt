@@ -1,0 +1,42 @@
+﻿pio.exe : .pio/libdeps/
+esp32-s3-devkitc-1/lvgl
+/src/draw/lv_draw_label
+.c: In function 
+'lv_draw_label':
+At line:1 char:1
++ & "$env:USERPROFILE\.
+platformio\penv\Scripts
+\pio.exe" run -e 
+esp32-s3 ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (.pio/libdeps/   
+ es...lv_draw_label    
+'::String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+.pio/libdeps/esp32-s3-d
+evkitc-1/lvgl/src/draw/
+lv_draw_label.c:245:56:
+ error: subscripted 
+value is neither array 
+nor pointer nor vector
+                 
+if(letter == (uint32_t)
+LV_TXT_COLOR_CMD[0]) {
+                       
+                       
+          ^
+*** [.pio\build\esp32-s
+3-devkitc-1\libfa7\lvgl
+\draw\lv_draw_label.c.o
+] Error 1
+ [FAILED] Took 9.66 
+seconds 

@@ -1,0 +1,10 @@
+﻿_ZN8TFT_eSPI15begin_tft_writeEv
+F:\Codeuni\Embedded\firmware\ESP32S3/.pio/libdeps/esp32-s3-devkitc-1/TFT_eSPI/TFT_eSPI.cpp:81
+_ZN8TFT_eSPI4initEh
+F:\Codeuni\Embedded\firmware\ESP32S3/.pio/libdeps/esp32-s3-devkitc-1/TFT_eSPI/TFT_eSPI.cpp:699
+_Z12display_initv
+F:\Codeuni\Embedded\firmware\ESP32S3/src/display.cpp:278
+_Z5setupv
+F:\Codeuni\Embedded\firmware\ESP32S3/src/main.cpp:173 (discriminator 4)
+_Z8loopTaskPv
+C:/Users/admin/.platformio/packages/framework-arduinoespressif32/cores/esp32/main.cpp:42
