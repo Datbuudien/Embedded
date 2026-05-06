@@ -16,6 +16,14 @@
 #define RTC_SCL_PIN     15
 // Pull-up 4.7kΩ đã gắn ngoài (không dùng internal pullup)
 
+// ---- Audio I2S (Mic & Speaker ES8311) -----------------------
+#define AUDIO_PA_ENABLE   1   // PA enable (LOW = Bật mạch amply loa ngoài)
+#define AUDIO_I2S_MCLK    4   // Master Clock
+#define AUDIO_I2S_BCLK    5   // Bit Clock
+#define AUDIO_I2S_DOUT    6   // Data Out (Phát nhạc ra Loa)
+#define AUDIO_I2S_WS      7   // Word Select / LRC
+#define AUDIO_I2S_DIN     8   // Data In (Thu âm từ Mic)
+
 // ---- ANN Weights & Bias ------------------------------------
 // Binary classifier: P = sigmoid(w1*x1 + w2*x2 + ... + w5*x5 + b)
 // x1 = soil_pct (0-100), x2 = temperature (°C), x3 = humidity_air (%),

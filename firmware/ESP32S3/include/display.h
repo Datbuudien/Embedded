@@ -27,7 +27,7 @@
 
 // ---- LVGL Refresh Rate ------------------------------------
 #define LVGL_TICK_MS    5   // Gọi lv_tick_inc() mỗi 5ms (qua hw_timer)
-#define LVGL_TASK_MS   10   // Gọi lv_task_handler() mỗi 10ms trong loop
+#define LVGL_TASK_MS   10   // Gọi lv_tas-k_handler() mỗi 10ms trong loop
 
 #include "protocol.h"
 
